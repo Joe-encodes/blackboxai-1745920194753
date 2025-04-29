@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="english"
+  ><head
+    ><title>exported project</title
+    ><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./devices.css" rel="stylesheet" /><div
+        class="devices-container"
+        ><div class="devices-devices"
+          ><div class="devices-auto-layout-horizontal10"
+            ><div class="devices-auto-layout-vertical10"
+              ><div class="devices-auto-layout-horizontal11"
+                ><img
+                  src="public/external/rectangle4437-y4f-200h.png"
+                  alt="Rectangle4437"
+                  class="devices-rectangle1" /><div
+                  class="devices-auto-layout-vertical11"
+                  ><div class="devices-auto-layout-horizontal12"
+                    ><img
+                      src="public/external/variant24438-jzqp.svg"
+                      alt="variant24438"
+                      class="devices-variant2" /></div></div></div
+              ><div class="devices-auto-layout-vertical12"
+                ><div class="devices-auto-layout-vertical13"
+                  ><div class="devices-variant101hoverfalse"
+                    ><div class="devices-auto-layout-vertical14"
+                      ><img
+                        src="public/external/component1i443-p37q.svg"
+                        alt="component1I443"
+                        class="devices-component11" /></div
+                    ><div class="devices-auto-layout-vertical15"
+                      ><span
+                        class="devices-text10 app.banani.coRobotoSlabMedium"
+                        >Dashboard</span
+                      ></div
+                    ></div
+                  ><div class="devices-variant102hoverfalse"
+                    ><div class="devices-auto-layout-vertical16"
+                      ><img
+                        src="public/external/component1i443-2rnj.svg"
+                        alt="component1I443"
+                        class="devices-component12" /></div
+                    ><div class="devices-auto-layout-vertical17"
+                      ><span
+                        class="devices-text11 app.banani.coRobotoSlabMedium"
+                        >Devices</span
+                      ></div
+                    ></div
+                  ><div class="devices-variant103hoverfalse"
+                    ><div class="devices-auto-layout-vertical18"
+                      ><img
+                        src="public/external/component1i443-60x.svg"
+                        alt="component1I443"
+                        class="devices-component13" /></div
+                    ><div class="devices-auto-layout-vertical19"
+                      ><span
+                        class="devices-text12 app.banani.coRobotoSlabMedium"
+                        >Security</span
+                      ></div
+                    ></div
+                  ><div class="devices-variant104hoverfalse"
+                    ><div class="devices-auto-layout-vertical20"
+                      ><img
+                        src="public/external/component1i443-0sz.svg"
+                        alt="component1I443"
+                        class="devices-component14" /></div
+                    ><div class="devices-auto-layout-vertical21"
+                      ><span
+                        class="devices-text13 app.banani.coRobotoSlabMedium"
+                        >Energy</span
+                      ></div
+                    ></div
+                  ><div class="devices-variant105hoverfalse"
+                    ><div class="devices-auto-layout-vertical22"
+                      ><img
+                        src="public/external/component1i443-ogk4.svg"
+                        alt="component1I443"
+                        class="devices-component15" /></div
+                    ><div class="devices-auto-layout-vertical23"
+                      ><span
+                        class="devices-text14 app.banani.coRobotoSlabMedium"
+                        >Notifications</span
+                      ></div
+                    ></div
+                  ><div class="devices-variant106hoverfalse"
+                    ><div class="devices-auto-layout-vertical24"
+                      ><img
+                        src="public/external/component1i443-as.svg"
+                        alt="component1I443"
+                        class="devices-component16" /></div
+                    ><div class="devices-auto-layout-vertical25"
+                      ><span
+                        class="devices-text15 app.banani.coRobotoSlabMedium"
+                        >Profile</span
+                      ></div
+                    ></div
+                  ></div
+                ></div
+              ><div class="devices-auto-layout-vertical26"
+                ><div class="devices-auto-layout-horizontal13"
+                  ><div class="devices-auto-layout-vertical27"
+                    ><div class="devices-frame1"></div></div
+                  ><div class="devices-frame2"></div></div></div></div
+            ><div class="devices-auto-layout-vertical28"
+              ><div class="devices-frame3"
+                ><div class="devices-auto-layout-vertical29"
+                  ><span class="devices-text16 app.banani.coRobotoSlabSemiBold2"
+                    >My Devices</span
+                  ></div
+                ><div class="devices-auto-layout-vertical30"
+                  ><div class="devices-auto-layout-horizontal14"
+                    ><div class="devices-auto-layout-vertical31"
+                      ><span class="devices-text17 app.banani.coSemanticItem"
+                        >All</span
+                      ><img
+                        src="public/external/rectangle2887-2c88-200h.png"
+                        alt="Rectangle2887"
+                        class="devices-rectangle2" /></div
+                    ><div class="devices-auto-layout-vertical32"
+                      ><div class="devices-auto-layout-vertical33"
+                        ><span class="devices-text18 app.banani.coSemanticItem"
+                          >On</span
+                        ></div
+                      ></div
+                    ><div class="devices-auto-layout-vertical34"
+                      ><div class="devices-auto-layout-vertical35"
+                        ><span class="devices-text19 app.banani.coSemanticItem"
+                          >Off</span
+                        ></div
+                      ></div
+                    ><div class="devices-auto-layout-vertical36"
+                      ><div class="devices-auto-layout-vertical37"
+                        ><span class="devices-text20 app.banani.coSemanticItem"
+                          >Eco Mode</span
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ><div class="devices-auto-layout-horizontal15"
+                  ><div class="devices-auto-layout-vertical38"
+                    ><div class="devices-auto-layout-vertical39"
+                      ><div class="devices-auto-layout-vertical40"
+                        ><div class="devices-frame4"></div></div
+                      ><div class="devices-auto-layout-vertical41"
+                        ><div class="devices-auto-layout-vertical42"
+                          ><span
+                            class="devices-text21 app.banani.coSemanticHeading21"
+                            >AC</span
+                          ></div
+                        ></div
+                      ><div class="devices-auto-layout-vertical43"
+                        ><span
+                          class="devices-text22 app.banani.coRobotoSlabRegular"
+                          >Living Room</span
+                        ></div
+                      ><div class="devices-auto-layout-vertical44"
+                        ><div class="devices-auto-layout-horizontal16"
+                          ><div class="devices-auto-layout-vertical45"
+                            ><div class="devices-auto-layout-horizontal17"
+                              ><span
+                                class="devices-text23 app.banani.coSemanticButton"
+                                >Details</span
+                              ></div
+                            ></div
+                          ><div class="devices-auto-layout-vertical46"
+                            ><div class="devices-auto-layout-horizontal18"
+                              ><span
+                                class="devices-text24 app.banani.coSemanticButton"
+                                >Power</span
+                              ></div
+                            ></div
+                          ></div
+                        ></div
+                      ></div
+                    ></div
+                  ><div class="devices-auto-layout-vertical47"
+                    ><div class="devices-auto-layout-vertical48"
+                      ><div class="devices-auto-layout-vertical49"
+                        ><div class="devices-frame5"></div></div
+                      ><div class="devices-auto-layout-vertical50"
+                        ><div class="devices-auto-layout-vertical51"
+                          ><span
+                            class="devices-text25 app.banani.coSemanticHeading21"
+                            >TV</span
+                          ></div
+                        ></div
+                      ><div class="devices-auto-layout-vertical52"
+                        ><span
+                          class="devices-text26 app.banani.coRobotoSlabRegular"
+                          >Bedroom</span
+                        ></div
+                      ><div class="devices-auto-layout-vertical53"
+                        ><div class="devices-auto-layout-horizontal19"
+                          ><div class="devices-auto-layout-vertical54"
+                            ><div class="devices-auto-layout-horizontal20"
+                              ><span
+                                class="devices-text27 app.banani.coSemanticButton"
+                                >Details</span
+                              ></div
+                            ></div
+                          ><div class="devices-auto-layout-vertical55"
+                            ><div class="devices-auto-layout-horizontal21"
+                              ><span
+                                class="devices-text28 app.banani.coSemanticButton"
+                                >Power</span
+                              ></div
+                            ></div
+                          ></div
+                        ></div
+                      ></div
+                    ></div
+                  ><div class="devices-auto-layout-vertical56"
+                    ><div class="devices-auto-layout-vertical57"
+                      ><div class="devices-auto-layout-vertical58"
+                        ><div class="devices-frame6"></div></div
+                      ><div class="devices-auto-layout-vertical59"
+                        ><div class="devices-auto-layout-vertical60"
+                          ><span
+                            class="devices-text29 app.banani.coSemanticHeading21"
+                            >Lights</span
+                          ></div
+                        ></div
+                      ><div class="devices-auto-layout-vertical61"
+                        ><span
+                          class="devices-text30 app.banani.coRobotoSlabRegular"
+                          >Kitchen</span
+                        ></div
+                      ><div class="devices-auto-layout-vertical62"
+                        ><div class="devices-auto-layout-horizontal22"
+                          ><div class="devices-auto-layout-vertical63"
+                            ><div class="devices-auto-layout-horizontal23"
+                              ><span
+                                class="devices-text31 app.banani.coSemanticButton"
+                                >Details</span
+                              ></div
+                            ></div
+                          ><div class="devices-auto-layout-vertical64"
+                            ><div class="devices-auto-layout-horizontal24"
+                              ><span
+                                class="devices-text32 app.banani.coSemanticButton"
+                                >Power</span
+                              ></div
+                            ></div
+                          ></div
+                        ></div
+                      ></div
+                    ></div
+                  ><div class="devices-auto-layout-vertical65"
+                    ><div class="devices-auto-layout-vertical66"
+                      ><div class="devices-auto-layout-vertical67"
+                        ><div class="devices-frame7"></div></div
+                      ><div class="devices-auto-layout-vertical68"
+                        ><div class="devices-auto-layout-vertical69"
+                          ><span
+                            class="devices-text33 app.banani.coSemanticHeading21"
+                            >Fridge</span
+                          ></div
+                        ></div
+                      ><div class="devices-auto-layout-vertical70"
+                        ><span
+                          class="devices-text34 app.banani.coRobotoSlabRegular"
+                          >Pantry</span
+                        ></div
+                      ><div class="devices-auto-layout-vertical71"
+                        ><div class="devices-auto-layout-horizontal25"
+                          ><div class="devices-auto-layout-vertical72"
+                            ><div class="devices-auto-layout-horizontal26"
+                              ><span
+                                class="devices-text35 app.banani.coSemanticButton"
+                                >Details</span
+                              ></div
+                            ></div
+                          ><div class="devices-auto-layout-vertical73"
+                            ><div class="devices-auto-layout-horizontal27"
+                              ><span
+                                class="devices-text36 app.banani.coSemanticButton"
+                                >Power</span
+                              ></div
+                            ></div
+                          ></div
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ><div class="devices-auto-layout-vertical74"
+                  ><span class="devices-text37 app.banani.coRobotoSlabSemiBold2"
+                    >Device Status</span
+                  ></div
+                ><div class="devices-auto-layout-horizontal28"
+                  ><div class="devices-auto-layout-horizontal29"
+                    ><div class="devices-auto-layout-vertical75"
+                      ><span
+                        class="devices-text38 app.banani.coRobotoSlabRegular1"
+                        >AC</span
+                      ></div
+                    ><div class="devices-auto-layout-vertical76"
+                      ><span
+                        class="devices-text39 app.banani.coRobotoSlabRegular1"
+                        >On</span
+                      ></div
+                    ><div class="devices-auto-layout-vertical77"
+                      ><span
+                        class="devices-text40 app.banani.coRobotoSlabRegular1"
+                        >Eco</span
+                      ></div
+                    ></div
+                  ></div
+                ><div class="devices-auto-layout-horizontal30"
+                  ><div class="devices-auto-layout-horizontal31"
+                    ><div class="devices-auto-layout-vertical78"
+                      ><span
+                        class="devices-text41 app.banani.coRobotoSlabRegular1"
+                        >TV</span
+                      ></div
+                    ><div class="devices-auto-layout-vertical79"
+                      ><span
+                        class="devices-text42 app.banani.coRobotoSlabRegular1"
+                        >Off</span
+                      ></div
+                    ><div class="devices-auto-layout-vertical80"
+                      ><span
+                        class="devices-text43 app.banani.coRobotoSlabRegular1"
+                        >Normal</span
+                      ></div
+                    ></div
+                  ></div
+                ><div class="devices-auto-layout-horizontal32"
+                  ><div class="devices-auto-layout-horizontal33"
+                    ><div class="devices-auto-layout-vertical81"
+                      ><span
+                        class="devices-text44 app.banani.coRobotoSlabRegular1"
+                        >Lights</span
+                      ></div
+                    ><div class="devices-auto-layout-vertical82"
+                      ><span
+                        class="devices-text45 app.banani.coRobotoSlabRegular1"
+                        >On</span
+                      ></div
+                    ><div class="devices-auto-layout-vertical83"
+                      ><span
+                        class="devices-text46 app.banani.coRobotoSlabRegular1"
+                        >Eco</span
+                      ></div
+                    ></div
+                  ></div
+                ><div class="devices-auto-layout-horizontal34"
+                  ><div class="devices-auto-layout-horizontal35"
+                    ><div class="devices-auto-layout-vertical84"
+                      ><span
+                        class="devices-text47 app.banani.coRobotoSlabRegular1"
+                        >Fridge</span
+                      ></div
+                    ><div class="devices-auto-layout-vertical85"
+                      ><span
+                        class="devices-text48 app.banani.coRobotoSlabRegular1"
+                        >On</span
+                      ></div
+                    ><div class="devices-auto-layout-vertical86"
+                      ><span
+                        class="devices-text49 app.banani.coRobotoSlabRegular1"
+                        >Normal</span
+                      ></div
+                    ></div
+                  ></div
+                ><div class="devices-auto-layout-vertical87"
+                  ><span class="devices-text50 app.banani.coRobotoSlabSemiBold2"
+                    >Add Device</span
+                  ></div
+                ><div class="devices-auto-layout-vertical88"
+                  ><div class="devices-auto-layout-vertical89"
+                    ><span class="devices-text51 app.banani.coSemanticButton"
+                      >Add New Device</span
+                    ></div
+                  ></div
+                ></div
+              ></div
+            ></div
+          ></div
+        ></div
+      ></div
+    >
+  </body></html
+>
