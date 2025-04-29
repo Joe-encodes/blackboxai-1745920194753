@@ -1,0 +1,1960 @@
+.homepage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.homepage-homepage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-horizontal10 {
+  width: 1200px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var("--dl-color-app.banani.co-white");
+}
+ 
+.homepage-auto-layout-vertical10 {
+  width: 256px;
+  height: 1395px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var("--dl-color-app.banani.co-electricviolet5");
+}
+ 
+.homepage-auto-layout-horizontal11 {
+  gap: 59.41999816894531px;
+  width: 256px;
+  display: flex;
+  padding: 20px 27.989999771118164px 12px 31.989999771118164px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.homepage-rectangle1 {
+  width: 117px;
+  height: 24px;
+}
+ 
+.homepage-auto-layout-vertical11 {
+  height: 24px;
+  display: flex;
+  padding: 0 0 4.449999809265137px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-horizontal12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.homepage-variant2 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.homepage-auto-layout-vertical12 {
+  width: 256px;
+  height: 1261px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-vertical13 {
+  gap: 4px;
+  width: 256px;
+  display: flex;
+  padding: 0 20px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-variant61hoverfalse {
+  width: 216px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: rgba(99, 74, 255, 0.10000000149011612);
+}
+ 
+.homepage-auto-layout-vertical14 {
+  top: 6px;
+  left: 11.989999771118164px;
+  width: 20px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.homepage-component11 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.homepage-auto-layout-vertical15 {
+  top: 2.565000057220459px;
+  left: 31.989999771118164px;
+  width: 84px;
+  display: flex;
+  padding: 0 0 1.4450000524520874px 12px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-text10 {
+  color: var("--dl-color-app.banani.co-codgray");
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.homepage-variant62hoverfalse {
+  width: 216px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+ 
+.homepage-auto-layout-vertical16 {
+  top: 6px;
+  left: 11.989999771118164px;
+  width: 20px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.homepage-component12 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.homepage-auto-layout-vertical17 {
+  top: 2.559999942779541px;
+  left: 31.989999771118164px;
+  width: 64px;
+  display: flex;
+  padding: 0 0 1.4500000476837158px 12px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-text11 {
+  color: var("--dl-color-app.banani.co-codgray");
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.homepage-variant63hoverfalse {
+  width: 216px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+ 
+.homepage-auto-layout-vertical18 {
+  top: 6px;
+  left: 11.989999771118164px;
+  width: 20px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.homepage-component13 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.homepage-auto-layout-vertical19 {
+  top: 2.559999942779541px;
+  left: 31.989999771118164px;
+  width: 68px;
+  display: flex;
+  padding: 0 0 1.4500000476837158px 12px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-text12 {
+  color: var("--dl-color-app.banani.co-codgray");
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.homepage-variant64hoverfalse {
+  width: 216px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+ 
+.homepage-auto-layout-vertical20 {
+  top: 6px;
+  left: 11.989999771118164px;
+  width: 20px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.homepage-component14 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.homepage-auto-layout-vertical21 {
+  top: 2.559999942779541px;
+  left: 31.989999771118164px;
+  width: 60px;
+  display: flex;
+  padding: 0 0 1.4500000476837158px 12px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-text13 {
+  color: var("--dl-color-app.banani.co-codgray");
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.homepage-variant65hoverfalse {
+  width: 216px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+ 
+.homepage-auto-layout-vertical22 {
+  top: 6px;
+  left: 11.989999771118164px;
+  width: 20px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.homepage-component15 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.homepage-auto-layout-vertical23 {
+  top: 2.555000066757202px;
+  left: 31.989999771118164px;
+  width: 98px;
+  display: flex;
+  padding: 0 0 1.4550000429153442px 12px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-text14 {
+  color: var("--dl-color-app.banani.co-codgray");
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.homepage-variant66hoverfalse {
+  width: 216px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+ 
+.homepage-auto-layout-vertical24 {
+  top: 6px;
+  left: 11.989999771118164px;
+  width: 20px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.homepage-component16 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.homepage-auto-layout-vertical25 {
+  top: 2.555000066757202px;
+  left: 31.989999771118164px;
+  width: 56px;
+  display: flex;
+  padding: 0 0 1.4450000524520874px 12px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-text15 {
+  color: var("--dl-color-app.banani.co-codgray");
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.homepage-auto-layout-vertical26 {
+  width: 256px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-horizontal13 {
+  width: 256px;
+  display: flex;
+  padding: 16px 24px;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.homepage-auto-layout-vertical27 {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var("--dl-color-app.banani.co-alto");
+}
+ 
+.homepage-frame1 {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  background-size: cover;
+  background-image: url("public/external/tq_44lurqqtc--ytnw-200h.png");
+}
+ 
+.homepage-frame2 {
+  width: 99px;
+  height: 46px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.homepage-auto-layout-vertical28 {
+  display: flex;
+  padding: 0 40px 100px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-vertical29 {
+  display: flex;
+  padding: 20px 0 0;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-horizontal14 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.homepage-auto-layout-vertical30 {
+  display: flex;
+  padding: 12px 0;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-vertical31 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-text16 {
+  color: var("--dl-color-app.banani.co-codgray");
+  height: auto;
+  text-align: left;
+  line-height: 22px;
+}
+ 
+.homepage-auto-layout-horizontal15 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-vertical32 {
+  height: 210px;
+  display: flex;
+  padding: 0 0 12px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-vertical33 {
+  width: 207px;
+  height: 198px;
+  display: flex;
+  padding: 24px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 16px;
+  flex-direction: column;
+  background-color: var();
+}
+ 
+.homepage-auto-layout-vertical34 {
+  width: 36px;
+  height: 48px;
+  display: flex;
+  padding: 0 0 12px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-horizontal16 {
+  width: 20px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  justify-content: center;
+  background-color: var();
+}
+ 
+.homepage-variant9 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.homepage-auto-layout-vertical35 {
+  width: 159px;
+  display: flex;
+  padding: 0 0 4px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-vertical36 {
+  width: 159px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text17 {
+  color: var("--dl-color-app.banani.co-codgray");
+  width: 159px;
+  height: auto;
+  text-align: left;
+  line-height: 28px;
+}
+ 
+.homepage-auto-layout-vertical37 {
+  width: 159px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text18 {
+  color: var("--dl-color-app.banani.co-palesky");
+  width: 159px;
+  height: auto;
+  text-align: left;
+  line-height: 22px;
+}
+ 
+.homepage-auto-layout-vertical38 {
+  width: 159px;
+  display: flex;
+  padding: 16px 0 0;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-horizontal17 {
+  gap: 8px;
+  width: 159px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.homepage-auto-layout-vertical39 {
+  display: flex;
+  padding: 6.829999923706055px 12px;
+  align-items: center;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var("--dl-color-app.banani.co-electricviolet");
+}
+ 
+.homepage-auto-layout-horizontal18 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.homepage-text19 {
+  color: var();
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical40 {
+  display: flex;
+  padding: 6.829999923706055px 12px;
+  align-items: center;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var();
+}
+ 
+.homepage-auto-layout-horizontal19 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.homepage-text20 {
+  color: var();
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical41 {
+  height: 210px;
+  display: flex;
+  padding: 0 0 12px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-vertical42 {
+  height: 198px;
+  display: flex;
+  padding: 24px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 16px;
+  flex-direction: column;
+  background-color: var();
+}
+ 
+.homepage-auto-layout-vertical43 {
+  width: 36px;
+  height: 48px;
+  display: flex;
+  padding: 0 0 12px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-horizontal20 {
+  width: 20px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  justify-content: center;
+  background-color: var();
+}
+ 
+.homepage-variant10 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.homepage-auto-layout-vertical44 {
+  display: flex;
+  padding: 0 0 4px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-vertical45 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-text21 {
+  color: var("--dl-color-app.banani.co-codgray");
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 28px;
+}
+ 
+.homepage-auto-layout-vertical46 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-text22 {
+  color: var("--dl-color-app.banani.co-palesky");
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 22px;
+}
+ 
+.homepage-auto-layout-vertical47 {
+  display: flex;
+  padding: 16px 0 0;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-horizontal21 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.homepage-auto-layout-vertical48 {
+  display: flex;
+  padding: 6.829999923706055px 12px;
+  align-items: center;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var("--dl-color-app.banani.co-electricviolet");
+}
+ 
+.homepage-auto-layout-horizontal22 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.homepage-text23 {
+  color: var("--dl-color-app.banani.co-white");
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical49 {
+  display: flex;
+  padding: 6.829999923706055px 12px;
+  align-items: center;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var("--dl-color-app.banani.co-electricviolet"5);
+}
+ 
+.homepage-auto-layout-horizontal23 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.homepage-text24 {
+  color: var("--dl-color-app.banani.co-electricviolet");
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical50 {
+  height: 210px;
+  display: flex;
+  padding: 0 0 12px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-vertical51 {
+  height: 198px;
+  display: flex;
+  padding: 24px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 16px;
+  flex-direction: column;
+  background-color: var("--dl-color-app.banani.co-electricviolet"5);
+}
+ 
+.homepage-auto-layout-vertical52 {
+  width: 36px;
+  height: 48px;
+  display: flex;
+  padding: 0 0 12px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-horizontal24 {
+  width: 20px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  justify-content: center;
+  background-color: var("--dl-color-app.banani.co-electricviolet"5);
+}
+ 
+.homepage-variant11 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.homepage-auto-layout-vertical53 {
+  display: flex;
+  padding: 0 0 4px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-vertical54 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-text25 {
+  color: var("--dl-color-app.banani.co-codgray");
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 28px;
+}
+ 
+.homepage-auto-layout-vertical55 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-text26 {
+  color: var("--dl-color-app.banani.co-palesky");
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 22px;
+}
+ 
+.homepage-auto-layout-vertical56 {
+  display: flex;
+  padding: 16px 0 0;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-horizontal25 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.homepage-auto-layout-vertical57 {
+  display: flex;
+  padding: 6.829999923706055px 12px;
+  align-items: center;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var("--dl-color-app.banani.co-electricviolet");
+}
+ 
+.homepage-auto-layout-horizontal26 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.homepage-text27 {
+  color: var("--dl-color-app.banani.co-white");
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical58 {
+  display: flex;
+  padding: 6.829999923706055px 12px;
+  align-items: center;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var("--dl-color-app.banani.co-electricviolet"5);
+}
+ 
+.homepage-auto-layout-horizontal27 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.homepage-text28 {
+  color: var("--dl-color-app.banani.co-electricviolet");
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical59 {
+  height: 210px;
+  display: flex;
+  padding: 0 0 12px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-vertical60 {
+  height: 198px;
+  display: flex;
+  padding: 24px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 16px;
+  flex-direction: column;
+  background-color: var("--dl-color-app.banani.co-electricviolet"5);
+}
+ 
+.homepage-auto-layout-vertical61 {
+  width: 36px;
+  height: 48px;
+  display: flex;
+  padding: 0 0 12px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-horizontal28 {
+  width: 20px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  justify-content: center;
+  background-color: var("--dl-color-app.banani.co-electricviolet"5);
+}
+ 
+.homepage-variant12 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.homepage-auto-layout-vertical62 {
+  display: flex;
+  padding: 0 0 4px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-vertical63 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-text29 {
+  color: var("--dl-color-app.banani.co-codgray");
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 28px;
+}
+ 
+.homepage-auto-layout-vertical64 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-text30 {
+  color: var("--dl-color-app.banani.co-palesky");
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 22px;
+}
+ 
+.homepage-auto-layout-vertical65 {
+  display: flex;
+  padding: 16px 0 0;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.homepage-auto-layout-horizontal29 {
+  gap: 7.989999771118164px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.homepage-auto-layout-vertical66 {
+  display: flex;
+  padding: 6.829999923706055px 12px;
+  align-items: center;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var("--dl-color-app.banani.co-electricviolet");
+}
+ 
+.homepage-auto-layout-horizontal30 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.homepage-text31 {
+  color: var("--dl-color-app.banani.co-white");
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical67 {
+  display: flex;
+  padding: 6.829999923706055px 12px;
+  align-items: center;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var("--dl-color-app.banani.co-electricviolet"5);
+}
+ 
+.homepage-auto-layout-horizontal31 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+ 
+.homepage-text32 {
+  color: var("--dl-color-app.banani.co-electricviolet");
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical68 {
+  height: 58px;
+  display: flex;
+  padding: 23.989999771118164px 0 11.989999771118164px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text33 {
+  color: var("--dl-color-app.banani.co-codgray");
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 22px;
+}
+ 
+.homepage-auto-layout-vertical69 {
+  height: 43px;
+  display: flex;
+  padding: 0 0 0.5555559992790222px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 0.10000000149011612);
+  border-style: solid;
+  border-width: 0 0 0.5555559992790222px;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-horizontal32 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.homepage-auto-layout-vertical70 {
+  height: 42px;
+  display: flex;
+  padding: 12px 0;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text34 {
+  color: var("--dl-color-app.banani.co-ebony");
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.homepage-rectangle2 {
+  top: 41px;
+  left: 0px;
+  width: 35px;
+  height: 2px;
+  z-index: 1;
+  position: absolute;
+}
+ 
+.homepage-auto-layout-vertical71 {
+  height: 42px;
+  display: flex;
+  padding: 0 0 0 24px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-vertical72 {
+  height: 42px;
+  display: flex;
+  padding: 12px 0;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text35 {
+  color: var("--dl-color-app.banani.co-boulder");
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-horizontal33 {
+  width: 816px;
+  height: 519px;
+  display: flex;
+  padding: 59.9900016784668px 0 0;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-vertical73 {
+  width: 816px;
+  height: 459px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.homepage-variant115 {
+  width: 816px;
+  height: 459px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.homepage-group10 {
+  top: 5.000001907348633px;
+  left: 5.0051493644714355px;
+  width: 805.98974609375px;
+  height: 388.9999084472656px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-group11 {
+  top: 0px;
+  left: 0px;
+  width: 805.98974609375px;
+  height: 388.9999084472656px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-vector10 {
+  top: 389px;
+  left: 0.00001239776611328125px;
+  width: 806px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.homepage-vector11 {
+  top: 291.75px;
+  left: 0.00001239776611328125px;
+  width: 806px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.homepage-vector12 {
+  top: 194.5px;
+  left: 0.00001239776611328125px;
+  width: 806px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.homepage-vector13 {
+  top: 97.25000762939453px;
+  left: 0.00001239776611328125px;
+  width: 806px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.homepage-vector14 {
+  top: 0px;
+  left: 0.0000762939453125px;
+  width: 806px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.homepage-group12 {
+  top: 400.9400329589844px;
+  left: 48.07604217529297px;
+  width: 718.348388671875px;
+  height: 17.000244140625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-group13 {
+  top: 0px;
+  left: 0px;
+  width: 718.348388671875px;
+  height: 17.000244140625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-group14 {
+  top: 0px;
+  left: 0px;
+  width: 29px;
+  height: 17px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-text36 {
+  color: var("--dl-color-app.banani.co-dovegray");
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-group15 {
+  top: -0.000014564686352969147px;
+  left: 117.141357421875px;
+  width: 25px;
+  height: 17px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-text37 {
+  color: var("--dl-color-app.banani.co-dovegray");
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-group16 {
+  top: -0.000014564686352969147px;
+  left: 229.78277587890625px;
+  width: 30px;
+  height: 17px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-text38 {
+  color: var("--dl-color-app.banani.co-dovegray");
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-group17 {
+  top: -0.000014564686352969147px;
+  left: 346.92413330078125px;
+  width: 26px;
+  height: 17px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-text39 {
+  color: var("--dl-color-app.banani.co-dovegray");
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-group18 {
+  top: -0.000014564686352969147px;
+  left: 466.5654602050781px;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-text40 {
+  color: var("--dl-color-app.banani.co-dovegray");
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-group19 {
+  top: -0.000014564686352969147px;
+  left: 579.2068481445312px;
+  width: 22px;
+  height: 17px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-text41 {
+  color: var("--dl-color-app.banani.co-dovegray");
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-group20 {
+  top: -0.000014564686352969147px;
+  left: 692.3483276367188px;
+  width: 26px;
+  height: 17px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-text42 {
+  color: var("--dl-color-app.banani.co-dovegray");
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-group21 {
+  top: 146.0124969482422px;
+  left: 16.51930046081543px;
+  width: 782.8471069335938px;
+  height: 247.9875030517578px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-group22 {
+  top: 0px;
+  left: 0px;
+  width: 782.8471069335938px;
+  height: 247.9875030517578px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-group23 {
+  top: 0px;
+  left: 0px;
+  width: 782.8471069335938px;
+  height: 247.9875030517578px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-group24 {
+  top: 43.762481689453125px;
+  left: 0px;
+  width: 91.99882507324219px;
+  height: 204.2250213623047px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-vector15 {
+  top: 0px;
+  left: 0px;
+  width: 92px;
+  height: 204px;
+  position: absolute;
+}
+ 
+.homepage-group25 {
+  top: 63.21250915527344px;
+  left: 115.14137268066406px;
+  width: 91.99882507324219px;
+  height: 184.77496337890625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-vector16 {
+  top: 0px;
+  left: 0px;
+  width: 92px;
+  height: 185px;
+  position: absolute;
+}
+ 
+.homepage-group26 {
+  top: 2.1696493490708235e-7px;
+  left: 230.2827606201172px;
+  width: 91.99880981445312px;
+  height: 247.9875030517578px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-vector17 {
+  top: 0px;
+  left: 0px;
+  width: 92px;
+  height: 248px;
+  position: absolute;
+}
+ 
+.homepage-group27 {
+  top: 19.449996948242188px;
+  left: 345.4241638183594px;
+  width: 91.99884033203125px;
+  height: 228.5374755859375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-vector18 {
+  top: 0px;
+  left: 0px;
+  width: 92px;
+  height: 229px;
+  position: absolute;
+}
+ 
+.homepage-group28 {
+  top: 53.48750305175781px;
+  left: 460.5655212402344px;
+  width: 91.99880981445312px;
+  height: 194.5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-vector19 {
+  top: 0px;
+  left: 0px;
+  width: 92px;
+  height: 194px;
+  position: absolute;
+}
+ 
+.homepage-group29 {
+  top: 77.79998779296875px;
+  left: 575.7069091796875px;
+  width: 91.99884033203125px;
+  height: 170.18751525878906px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-vector20 {
+  top: 0px;
+  left: 0px;
+  width: 92px;
+  height: 170px;
+  position: absolute;
+}
+ 
+.homepage-group30 {
+  top: 9.7247896194458px;
+  left: 690.8482666015625px;
+  width: 91.99884033203125px;
+  height: 238.26248168945312px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.homepage-vector21 {
+  top: 0px;
+  left: 0px;
+  width: 92px;
+  height: 238px;
+  position: absolute;
+}
+ 
+.homepage-auto-layout-vertical74 {
+  height: 74px;
+  display: flex;
+  padding: 39.9900016784668px 0 11.989999771118164px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text43 {
+  color: var("--dl-color-app.banani.co-codgray");
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 22px;
+}
+ 
+.homepage-auto-layout-horizontal34 {
+  display: flex;
+  padding: 16px 0 16.55555534362793px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(229, 231, 235, 1);
+  border-style: solid;
+  border-width: 0 0 0.5555559992790222px;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-horizontal35 {
+  width: 848px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-vertical75 {
+  width: 283px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text44 {
+  color: var("--dl-color-app.banani.co-ebony");
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical76 {
+  width: 283px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text45 {
+  color: var("--dl-color-app.banani.co-ebony");
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical77 {
+  width: 283px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text46 {
+  color: var("--dl-color-app.banani.co-ebony");
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-horizontal36 {
+  display: flex;
+  padding: 16px 0 16.55555534362793px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(229, 231, 235, 1);
+  border-style: solid;
+  border-width: 0 0 0.5555559992790222px;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-horizontal37 {
+  width: 848px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-vertical78 {
+  width: 283px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text47 {
+  color: var("--dl-color-app.banani.co-ebony");
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical79 {
+  width: 283px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text48 {
+  color: var("--dl-color-app.banani.co-ebony");
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical80 {
+  width: 283px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text49 {
+  color: var("--dl-color-app.banani.co-ebony");
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-horizontal38 {
+  display: flex;
+  padding: 16px 0 16.55555534362793px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(229, 231, 235, 1);
+  border-style: solid;
+  border-width: 0 0 0.5555559992790222px;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-horizontal39 {
+  width: 848px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-vertical81 {
+  width: 283px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text50 {
+  color: var("--dl-color-app.banani.co-ebony");
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical82 {
+  width: 283px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text51 {
+  color: var("--dl-color-app.banani.co-ebony");
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical83 {
+  width: 283px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text52 {
+  color: var("--dl-color-app.banani.co-ebony");
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-horizontal40 {
+  display: flex;
+  padding: 16px 0 16.55555534362793px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(229, 231, 235, 1);
+  border-style: solid;
+  border-width: 0 0 0.5555559992790222px;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-horizontal41 {
+  width: 848px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-vertical84 {
+  width: 283px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text53 {
+  color: var("--dl-color-app.banani.co-ebony");
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical85 {
+  width: 283px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text54 {
+  color: var("--dl-color-app.banani.co-ebony");
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical86 {
+  width: 283px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text55 {
+  color: var("--dl-color-app.banani.co-ebony");
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical87 {
+  height: 46px;
+  display: flex;
+  padding: 23.989999771118164px 0 0;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text56 {
+  color: var("--dl-color-app.banani.co-codgray");
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 22px;
+}
+ 
+.homepage-auto-layout-horizontal42 {
+  gap: 12px;
+  display: flex;
+  padding: 11.989999771118164px 0 0;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.homepage-auto-layout-vertical88 {
+  height: 42px;
+  display: flex;
+  padding: 12px 16px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var();
+}
+ 
+.homepage-auto-layout-vertical89 {
+  height: 18px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text57 {
+  color: var();
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical90 {
+  height: 42px;
+  display: flex;
+  padding: 12px 16px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var();
+}
+ 
+.homepage-auto-layout-vertical91 {
+  height: 18px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text58 {
+  color: var();
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+ 
+.homepage-auto-layout-vertical92 {
+  width: 99px;
+  height: 43px;
+  display: flex;
+  padding: 12.555556297302246px 16.55555534362793px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(229, 229, 229, 1);
+  border-style: solid;
+  border-width: 0.9997125267982483px;
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.homepage-auto-layout-vertical93 {
+  width: 66px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.homepage-text59 {
+  color: var();
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
