@@ -1,0 +1,1193 @@
+.profilenotificationssettings-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-profilenotificationssettings {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal10 {
+  width: 1200px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-app.banani.co-white);
+}
+ 
+.profilenotificationssettings-auto-layout-vertical10 {
+  height: 844px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dl-color-app.banani.co-electricviolet5);
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal11 {
+  gap: 59.41999816894531px;
+  display: flex;
+  padding: 20px 28px 12px 31.989999771118164px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.profilenotificationssettings-rectangle1 {
+  width: 117px;
+  height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical11 {
+  height: 24px;
+  display: flex;
+  padding: 0 0 4.449999809265137px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-variant2 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical12 {
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical13 {
+  gap: 4px;
+  display: flex;
+  padding: 0 20px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-variant93hoverfalse {
+  width: 216px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 8px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical14 {
+  top: 6px;
+  left: 11.989999771118164px;
+  width: 20px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-component11 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical15 {
+  top: 2.565000057220459px;
+  left: 31.989999771118164px;
+  width: 84px;
+  display: flex;
+  padding: 0 0 1.4450000524520874px 12px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text10 {
+  color: var(--dl-color-app.banani.co-codgray);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-variant94hoverfalse {
+  width: 216px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 8px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical16 {
+  top: 6px;
+  left: 11.989999771118164px;
+  width: 20px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-component12 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical17 {
+  top: 2.559999942779541px;
+  left: 31.989999771118164px;
+  width: 64px;
+  display: flex;
+  padding: 0 0 1.4500000476837158px 12px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text11 {
+  color: var(--dl-color-app.banani.co-codgray);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-variant95hoverfalse {
+  width: 216px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 8px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical18 {
+  top: 6px;
+  left: 11.989999771118164px;
+  width: 20px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-component13 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical19 {
+  top: 2.559999942779541px;
+  left: 31.989999771118164px;
+  width: 68px;
+  display: flex;
+  padding: 0 0 1.4500000476837158px 12px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text12 {
+  color: var(--dl-color-app.banani.co-codgray);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-variant96hoverfalse {
+  width: 216px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 8px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical20 {
+  top: 6px;
+  left: 11.989999771118164px;
+  width: 20px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-component14 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical21 {
+  top: 2.559999942779541px;
+  left: 31.989999771118164px;
+  width: 60px;
+  display: flex;
+  padding: 0 0 1.4500000476837158px 12px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text13 {
+  color: var(--dl-color-app.banani.co-codgray);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-variant97hoverfalse {
+  width: 216px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 8px;
+  background-color: rgba(99, 74, 255, 0.10000000149011612);
+}
+ 
+.profilenotificationssettings-auto-layout-vertical22 {
+  top: 6px;
+  left: 11.989999771118164px;
+  width: 20px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-component15 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical23 {
+  top: 2.555000066757202px;
+  left: 31.989999771118164px;
+  width: 98px;
+  display: flex;
+  padding: 0 0 1.4550000429153442px 12px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text14 {
+  color: var(--dl-color-app.banani.co-codgray);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-variant98hoverfalse {
+  width: 216px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 8px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical24 {
+  top: 6px;
+  left: 11.989999771118164px;
+  width: 20px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-component16 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical25 {
+  top: 2.555000066757202px;
+  left: 31.989999771118164px;
+  width: 56px;
+  display: flex;
+  padding: 0 0 1.4450000524520874px 12px;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text15 {
+  color: var(--dl-color-app.banani.co-codgray);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical26 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal13 {
+  display: flex;
+  padding: 16px 24px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical27 {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-app.banani.co-alto);
+}
+ 
+.profilenotificationssettings-frame1 {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  background-size: cover;
+  background-image: url("public/external/tq_i-evvaum89-9t3r-200h.png");
+}
+ 
+.profilenotificationssettings-frame2 {
+  width: 99px;
+  height: 46px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical28 {
+  display: flex;
+  padding: 0 40px 100px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical29 {
+  gap: 12px;
+  display: flex;
+  padding: 28px 0 0;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal14 {
+  display: flex;
+  padding: 8px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal15 {
+  gap: -0.009999999776482582px;
+  width: 166px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal16 {
+  display: flex;
+  align-items: center;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical30 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text16 {
+  color: var(--dl-color-app.banani.co-ebony);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical31 {
+  width: 32px;
+  height: 16px;
+  display: flex;
+  padding: 0 8px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical32 {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-variant125 {
+  width: 16px;
+  height: 16px;
+  flex-grow: 1;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical33 {
+  display: flex;
+  padding: 0 0 0 4px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal17 {
+  display: flex;
+  align-items: center;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical34 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text17 {
+  color: var(--dl-color-app.banani.co-ebony);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical35 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text18 {
+  color: var(--dl-color-app.banani.co-codgray);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 22px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical36 {
+  height: 46px;
+  display: flex;
+  padding: 23.989999771118164px 0 0;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text19 {
+  color: var(--dl-color-app.banani.co-codgray);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 22px;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal18 {
+  gap: 557.9400024414062px;
+  display: flex;
+  padding: 8px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal19 {
+  display: flex;
+  align-items: center;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal20 {
+  width: 20px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: var(--dl-color-app.banani.co-electricviolet5);
+}
+ 
+.profilenotificationssettings-variant45 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical37 {
+  display: flex;
+  padding: 0 0 0 12px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical38 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical39 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text20 {
+  color: var(--dl-color-app.banani.co-black);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical40 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text21 {
+  color: var(--dl-color-app.banani.co-black50);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal21 {
+  width: 44px;
+  height: 24px;
+  display: flex;
+  padding: 0 24px 0 4px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  background-color: var(--dl-color-app.banani.co-athensgray);
+}
+ 
+.profilenotificationssettings-rectangle2 {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal22 {
+  gap: 544.02001953125px;
+  display: flex;
+  padding: 0 0 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal23 {
+  display: flex;
+  align-items: center;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal24 {
+  width: 20px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: var(--dl-color-app.banani.co-electricviolet5);
+}
+ 
+.profilenotificationssettings-variant46 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical41 {
+  display: flex;
+  padding: 0 0 0 12px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical42 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical43 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text22 {
+  color: var(--dl-color-app.banani.co-black);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical44 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text23 {
+  color: var(--dl-color-app.banani.co-black50);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal25 {
+  width: 44px;
+  height: 24px;
+  display: flex;
+  padding: 0 24px 0 4px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  background-color: var(--dl-color-app.banani.co-athensgray);
+}
+ 
+.profilenotificationssettings-rectangle3 {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal26 {
+  gap: 516.8200073242188px;
+  display: flex;
+  padding: 0 0 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal27 {
+  display: flex;
+  align-items: center;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal28 {
+  width: 20px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: var(--dl-color-app.banani.co-electricviolet5);
+}
+ 
+.profilenotificationssettings-variant14 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical45 {
+  display: flex;
+  padding: 0 0 0 12px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical46 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical47 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text24 {
+  color: var(--dl-color-app.banani.co-black);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical48 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text25 {
+  color: var(--dl-color-app.banani.co-black50);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal29 {
+  width: 44px;
+  height: 24px;
+  display: flex;
+  padding: 0 24px 0 4px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  background-color: var(--dl-color-app.banani.co-athensgray);
+}
+ 
+.profilenotificationssettings-rectangle4 {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal30 {
+  gap: 537.5399780273438px;
+  display: flex;
+  padding: 0 0 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal31 {
+  display: flex;
+  align-items: center;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal32 {
+  width: 20px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: var(--dl-color-app.banani.co-electricviolet5);
+}
+ 
+.profilenotificationssettings-variant47 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical49 {
+  display: flex;
+  padding: 0 0 0 12px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical50 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical51 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text26 {
+  color: var(--dl-color-app.banani.co-black);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical52 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text27 {
+  color: var(--dl-color-app.banani.co-black50);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal33 {
+  width: 44px;
+  height: 24px;
+  display: flex;
+  padding: 0 24px 0 4px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  background-color: var(--dl-color-app.banani.co-athensgray);
+}
+ 
+.profilenotificationssettings-rectangle5 {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical53 {
+  height: 34px;
+  display: flex;
+  padding: 11.989999771118164px 0 0;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text28 {
+  color: var(--dl-color-app.banani.co-codgray);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 22px;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal34 {
+  gap: 571.6400146484375px;
+  display: flex;
+  padding: 8px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal35 {
+  display: flex;
+  align-items: center;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal36 {
+  width: 20px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: var(--dl-color-app.banani.co-electricviolet5);
+}
+ 
+.profilenotificationssettings-variant40 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical54 {
+  display: flex;
+  padding: 0 0 0 12px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical55 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical56 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text29 {
+  color: var(--dl-color-app.banani.co-black);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical57 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text30 {
+  color: var(--dl-color-app.banani.co-black50);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal37 {
+  width: 44px;
+  height: 24px;
+  display: flex;
+  padding: 0 24px 0 4px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  background-color: var(--dl-color-app.banani.co-athensgray);
+}
+ 
+.profilenotificationssettings-rectangle6 {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal38 {
+  gap: 636.75px;
+  display: flex;
+  padding: 0 0 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal39 {
+  display: flex;
+  align-items: center;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal40 {
+  width: 20px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: var(--dl-color-app.banani.co-electricviolet5);
+}
+ 
+.profilenotificationssettings-variant48 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical58 {
+  display: flex;
+  padding: 0 0 0 12px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical59 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical60 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text31 {
+  color: var(--dl-color-app.banani.co-black);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical61 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text32 {
+  color: var(--dl-color-app.banani.co-black50);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal41 {
+  width: 44px;
+  height: 24px;
+  display: flex;
+  padding: 0 24px 0 4px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  background-color: var(--dl-color-app.banani.co-athensgray);
+}
+ 
+.profilenotificationssettings-rectangle7 {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal42 {
+  gap: 618.9000244140625px;
+  display: flex;
+  padding: 0 0 8px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal43 {
+  display: flex;
+  align-items: center;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal44 {
+  width: 20px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 12px;
+  justify-content: center;
+  background-color: var(--dl-color-app.banani.co-electricviolet5);
+}
+ 
+.profilenotificationssettings-variant49 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical62 {
+  display: flex;
+  padding: 0 0 0 12px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical63 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical64 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text33 {
+  color: var(--dl-color-app.banani.co-black);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-vertical65 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.profilenotificationssettings-text34 {
+  color: var(--dl-color-app.banani.co-black50);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+ 
+.profilenotificationssettings-auto-layout-horizontal45 {
+  width: 44px;
+  height: 24px;
+  display: flex;
+  padding: 0 24px 0 4px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  background-color: var(--dl-color-app.banani.co-athensgray);
+}
+ 
+.profilenotificationssettings-rectangle8 {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+}
