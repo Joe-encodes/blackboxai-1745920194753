@@ -1,0 +1,736 @@
+📁 
+│   📄 main.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './index.css';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+────── END CONTENT ───────
+
+│   📄 Sidebar.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+
+const Sidebar = () => {
+  return (
+    <nav className="w-64 bg-purple-700 min-h-screen flex flex-col justify-between p-6">
+      <div>
+        <div className="mb-8 flex items-center justify-between">
+          <img src="/public/external/rectangle2860-6hdo-200h.png" alt="Logo" className="w-28 h-6" />
+          <img src="/public/external/variant22860-ws7g.svg" alt="Menu Icon" className="w-5 h-5" />
+        </div>
+        <ul className="space-y-4">
+          <li className="flex items-center p-2 rounded-lg bg-purple-300 bg-opacity-20">
+            <img src="/public/external/component1i286-25y.svg" alt="Dashboard Icon" className="w-5 h-5" />
+            <span className="ml-3 text-white font-medium">Dashboard</span>
+          </li>
+          <li className="flex items-center p-2 rounded-lg hover:bg-purple-300 hover:bg-opacity-20 cursor-pointer">
+            <img src="/public/external/component1i286-zx25.svg" alt="Devices Icon" className="w-5 h-5" />
+            <span className="ml-3 text-white font-medium">Devices</span>
+          </li>
+          <li className="flex items-center p-2 rounded-lg hover:bg-purple-300 hover:bg-opacity-20 cursor-pointer">
+            <img src="/public/external/component1i286-431.svg" alt="Security Icon" className="w-5 h-5" />
+            <span className="ml-3 text-white font-medium">Security</span>
+          </li>
+          <li className="flex items-center p-2 rounded-lg hover:bg-purple-300 hover:bg-opacity-20 cursor-pointer">
+            <img src="/public/external/component1i286-owp.svg" alt="Energy Icon" className="w-5 h-5" />
+            <span className="ml-3 text-white font-medium">Energy</span>
+          </li>
+          <li className="flex items-center p-2 rounded-lg hover:bg-purple-300 hover:bg-opacity-20 cursor-pointer">
+            <img src="/public/external/component1i286-6g7e.svg" alt="Notifications Icon" className="w-5 h-5" />
+            <span className="ml-3 text-white font-medium">Notifications</span>
+          </li>
+          <li className="flex items-center p-2 rounded-lg hover:bg-purple-300 hover:bg-opacity-20 cursor-pointer">
+            <img src="/public/external/component1i286-paoi.svg" alt="Profile Icon" className="w-5 h-5" />
+            <span className="ml-3 text-white font-medium">Profile</span>
+          </li>
+        </ul>
+      </div>
+      <div className="flex items-center space-x-4">
+        <div className="w-5 h-5 rounded-full bg-gray-300"></div>
+        <div className="w-24 h-12 bg-gray-300 rounded"></div>
+      </div>
+    </nav>
+  );
+};
+
+export default Sidebar;
+
+────── END CONTENT ───────
+
+│   📄 QuickControlPage.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+import Sidebar from './Sidebar';
+import QuickControl from './QuickControl';
+
+const QuickControlPage = () => {
+  return (
+    <div className="flex">
+      <Sidebar />
+      <QuickControl />
+    </div>
+  );
+};
+
+export default QuickControlPage;
+
+────── END CONTENT ───────
+
+│   📄 QuickControl.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+
+const QuickControl = () => {
+  return (
+    <section className="bg-white rounded-lg p-6 shadow-md max-w-4xl mx-auto mt-10">
+      <h2 className="text-xl font-semibold mb-4 text-gray-800">Quick Control</h2>
+      <div className="flex space-x-4 justify-center">
+        <button className="px-6 py-3 bg-purple-600 text-white rounded-md font-semibold hover:bg-purple-700 transition">
+          All On
+        </button>
+        <button className="px-6 py-3 bg-gray-300 text-gray-800 rounded-md font-semibold hover:bg-gray-400 transition">
+          All Off
+        </button>
+        <button className="px-6 py-3 bg-green-600 text-white rounded-md font-semibold hover:bg-green-700 transition">
+          Eco Mode
+        </button>
+      </div>
+    </section>
+  );
+};
+
+export default QuickControl;
+
+────── END CONTENT ───────
+
+│   📄 PowerUsagePage.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+import Sidebar from './Sidebar';
+import PowerUsage from './PowerUsage';
+
+const PowerUsagePage = () => {
+  return (
+    <div className="flex">
+      <Sidebar />
+      <PowerUsage />
+    </div>
+  );
+};
+
+export default PowerUsagePage;
+
+────── END CONTENT ───────
+
+│   📄 PowerUsage.jsx
+
+────── FILE CONTENT ──────
+import React, { useState } from 'react';
+
+const PowerUsage = () => {
+  const [activeTab, setActiveTab] = useState('daily');
+
+  return (
+    <section className="bg-white rounded-lg p-6 shadow-md max-w-4xl mx-auto mt-10">
+      <h2 className="text-xl font-semibold mb-4 text-gray-800">Power Usage</h2>
+      <div className="flex space-x-4 mb-6">
+        <button
+          className={`px-4 py-2 rounded-md font-semibold ${
+            activeTab === 'daily' ? 'bg-purple-600 text-white' : 'bg-gray-200 text-gray-700'
+          }`}
+          onClick={() => setActiveTab('daily')}
+        >
+          Daily
+        </button>
+        <button
+          className={`px-4 py-2 rounded-md font-semibold ${
+            activeTab === 'weekly' ? 'bg-purple-600 text-white' : 'bg-gray-200 text-gray-700'
+          }`}
+          onClick={() => setActiveTab('weekly')}
+        >
+          Weekly
+        </button>
+      </div>
+      <div className="h-48 bg-gray-100 rounded-md flex items-center justify-center text-gray-500">
+        {/* Placeholder for power usage chart */}
+        {activeTab === 'daily' ? 'Daily Power Usage Chart' : 'Weekly Power Usage Chart'}
+      </div>
+    </section>
+  );
+};
+
+export default PowerUsage;
+
+────── END CONTENT ───────
+
+│   📄 HomePage.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+import ConnectedDevices from './ConnectedDevices';
+import PowerUsage from './PowerUsage';
+import DeviceStatus from './DeviceStatus';
+import QuickControl from './QuickControl';
+import Sidebar from './Sidebar';
+
+const HomePage = () => {
+  return (
+    <div className="flex">
+      <Sidebar />
+      <main className="flex-1 p-8 bg-white min-h-screen space-y-10">
+        <ConnectedDevices />
+        <PowerUsage />
+        <DeviceStatus />
+        <QuickControl />
+      </main>
+    </div>
+  );
+};
+
+export default HomePage;
+
+────── END CONTENT ───────
+
+│   📄 EnergyPage.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+import Sidebar from './Sidebar';
+import EnergyMain from './EnergyMain';
+
+const EnergyPage = () => {
+  return (
+    <div className="flex">
+      <Sidebar />
+      <EnergyMain />
+    </div>
+  );
+};
+
+export default EnergyPage;
+
+────── END CONTENT ───────
+
+│   📄 EnergyMain.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+
+const EnergyMain = () => {
+  return (
+    <main className="flex-1 p-8 bg-white min-h-screen max-w-5xl mx-auto relative">
+      <section className="mb-8">
+        <h1 className="text-2xl font-semibold mb-4 text-gray-900">Energy Overview</h1>
+        <div className="flex space-x-6 mb-6">
+          <div className="flex flex-col items-center">
+            <img src="/public/external/variant142904-3mm.svg" alt="Today Icon" className="w-5 h-5 mb-1" />
+            <span className="font-semibold text-gray-700">Today</span>
+            <span className="text-xl font-semibold text-gray-900">12.4 kWh</span>
+            <span className="text-gray-500">Total energy used</span>
+            <button className="mt-2 px-4 py-1 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition">
+              Details
+            </button>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="/public/external/variant152906-09p.svg" alt="Cost Icon" className="w-5 h-5 mb-1" />
+            <span className="font-semibold text-gray-700">Estimated Cost</span>
+            <span className="text-xl font-semibold text-gray-900">$2.15</span>
+            <span className="text-gray-500">Today’s spend</span>
+            <button className="mt-2 px-4 py-1 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition">
+              Details
+            </button>
+          </div>
+          <div className="flex flex-col items-center">
+            <img src="/public/external/variant162908-mu1o.svg" alt="Eco Mode Icon" className="w-5 h-5 mb-1" />
+            <span className="font-semibold text-gray-700">Eco Mode</span>
+            <span className="text-xl font-semibold text-gray-900">Active</span>
+            <span className="text-gray-500">Energy saving on</span>
+            <button className="mt-2 px-4 py-1 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition">
+              Manage
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-xl font-semibold mb-4 text-gray-900">Usage Breakdown</h2>
+        <div className="relative w-full h-64 bg-gray-100 rounded-lg">
+          {/* Placeholder for usage breakdown chart */}
+          <div className="absolute top-0 left-0 w-1/6 h-full bg-purple-300"></div>
+          <div className="absolute top-0 left-1/6 w-1/6 h-3/4 bg-purple-400"></div>
+          <div className="absolute top-0 left-2/6 w-1/6 h-1/2 bg-purple-500"></div>
+          <div className="absolute top-0 left-3/6 w-1/6 h-1/3 bg-purple-600"></div>
+          <div className="absolute top-0 left-4/6 w-1/6 h-1/6 bg-purple-700"></div>
+          <div className="absolute top-0 left-5/6 w-1/6 h-1/12 bg-purple-800"></div>
+          <div className="absolute bottom-0 left-0 w-full h-1 bg-gray-400"></div>
+        </div>
+        <div className="flex justify-between mt-4 text-gray-700">
+          <span>AC</span>
+          <span>Fridge</span>
+          <span>Lights</span>
+          <span>TV</span>
+          <span>Heater</span>
+          <span>Other</span>
+        </div>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-semibold mb-4 text-gray-900">Recent Activity</h2>
+        <div className="space-y-4">
+          <div className="flex items-center space-x-4">
+            <img src="/public/external/variant182914-piqj.svg" alt="AC Icon" className="w-5 h-5" />
+            <span className="flex-1">AC</span>
+            <span>On</span>
+            <span>2.1 kWh</span>
+          </div>
+          <div className="flex items-center space-x-4">
+            <img src="/public/external/variant192915-h0y.svg" alt="TV Icon" className="w-5 h-5" />
+            <span className="flex-1">TV</span>
+            <span>Off</span>
+            <span>0.8 kWh</span>
+          </div>
+          <div className="flex items-center space-x-4">
+            <img src="/public/external/variant212917-zok.svg" alt="Lights Icon" className="w-5 h-5" />
+            <span className="flex-1">Lights</span>
+            <span>On</span>
+            <span>1.3 kWh</span>
+          </div>
+          <div className="flex items-center space-x-4">
+            <img src="/public/external/variant222919-u5sd.svg" alt="Fridge Icon" className="w-5 h-5" />
+            <span className="flex-1">Fridge</span>
+            <span>On</span>
+            <span>2.8 kWh</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+};
+
+export default EnergyMain;
+
+────── END CONTENT ───────
+
+│   📄 DevicesPage.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+import Sidebar from './Sidebar';
+import DevicesMain from './DevicesMain';
+
+const DevicesPage = () => {
+  return (
+    <div className="flex">
+      <Sidebar />
+      <DevicesMain />
+    </div>
+  );
+};
+
+export default DevicesPage;
+
+────── END CONTENT ───────
+
+│   📄 DevicesMain.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+
+const DevicesMain = () => {
+  return (
+    <main className="flex-1 p-8 bg-white min-h-screen max-w-5xl mx-auto relative">
+      <section className="mb-8">
+        <h1 className="text-2xl font-semibold mb-4 text-gray-900">My Devices</h1>
+        <div className="flex space-x-6 mb-4">
+          <div className="flex items-center space-x-2">
+            <span className="font-semibold text-gray-700">All</span>
+            <img src="/public/external/rectangle2887-2c88-200h.png" alt="All Devices" className="w-5 h-0.5" />
+          </div>
+          <div className="font-semibold text-gray-700">On</div>
+          <div className="font-semibold text-gray-700">Off</div>
+          <div className="font-semibold text-gray-700">Eco Mode</div>
+        </div>
+
+        <div className="grid grid-cols-3 gap-6">
+          {/* Device Card 1 */}
+          <div className="bg-purple-100 rounded-lg p-6 flex flex-col">
+            <div className="w-9 h-12 bg-purple-200 rounded-full mb-4"></div>
+            <h2 className="text-lg font-semibold mb-1">AC</h2>
+            <p className="text-purple-700 mb-4">Living Room</p>
+            <div className="flex space-x-4">
+              <button className="bg-purple-600 text-white px-4 py-2 rounded-md font-semibold hover:bg-purple-700 transition">
+                Details
+              </button>
+              <button className="bg-purple-300 text-purple-900 px-4 py-2 rounded-md font-semibold hover:bg-purple-400 transition">
+                Power
+              </button>
+            </div>
+          </div>
+
+          {/* Device Card 2 */}
+          <div className="bg-purple-100 rounded-lg p-6 flex flex-col">
+            <div className="w-9 h-12 bg-purple-200 rounded-full mb-4"></div>
+            <h2 className="text-lg font-semibold mb-1">TV</h2>
+            <p className="text-purple-700 mb-4">Bedroom</p>
+            <div className="flex space-x-4">
+              <button className="bg-purple-600 text-white px-4 py-2 rounded-md font-semibold hover:bg-purple-700 transition">
+                Details
+              </button>
+              <button className="bg-purple-300 text-purple-900 px-4 py-2 rounded-md font-semibold hover:bg-purple-400 transition">
+                Power
+              </button>
+            </div>
+          </div>
+
+          {/* Device Card 3 */}
+          <div className="bg-purple-100 rounded-lg p-6 flex flex-col">
+            <div className="w-9 h-12 bg-purple-200 rounded-full mb-4"></div>
+            <h2 className="text-lg font-semibold mb-1">Lights</h2>
+            <p className="text-purple-700 mb-4">Kitchen</p>
+            <div className="flex space-x-4">
+              <button className="bg-purple-600 text-white px-4 py-2 rounded-md font-semibold hover:bg-purple-700 transition">
+                Details
+              </button>
+              <button className="bg-purple-300 text-purple-900 px-4 py-2 rounded-md font-semibold hover:bg-purple-400 transition">
+                Power
+              </button>
+            </div>
+          </div>
+
+          {/* Device Card 4 */}
+          <div className="bg-purple-100 rounded-lg p-6 flex flex-col">
+            <div className="w-9 h-12 bg-purple-200 rounded-full mb-4"></div>
+            <h2 className="text-lg font-semibold mb-1">Fridge</h2>
+            <p className="text-purple-700 mb-4">Pantry</p>
+            <div className="flex space-x-4">
+              <button className="bg-purple-600 text-white px-4 py-2 rounded-md font-semibold hover:bg-purple-700 transition">
+                Details
+              </button>
+              <button className="bg-purple-300 text-purple-900 px-4 py-2 rounded-md font-semibold hover:bg-purple-400 transition">
+                Power
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-12">
+        <h2 className="text-xl font-semibold mb-4 text-gray-900">Device Status</h2>
+        <div className="grid grid-cols-3 gap-6 text-gray-700">
+          <div className="flex flex-col items-center">
+            <span className="font-semibold">AC</span>
+            <span>On</span>
+            <span>Eco</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <span className="font-semibold">TV</span>
+            <span>Off</span>
+            <span>Normal</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <span className="font-semibold">Lights</span>
+            <span>On</span>
+            <span>Eco</span>
+          </div>
+          <div className="flex flex-col items-center">
+            <span className="font-semibold">Fridge</span>
+            <span>On</span>
+            <span>Normal</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-12 max-w-xs">
+        <h2 className="text-xl font-semibold mb-4 text-gray-900">Add Device</h2>
+        <button className="w-full bg-purple-600 text-white px-4 py-3 rounded-md font-semibold hover:bg-purple-700 transition">
+          Add New Device
+        </button>
+      </section>
+    </main>
+  );
+};
+
+export default DevicesMain;
+
+────── END CONTENT ───────
+
+│   📄 DevicedetailsPage.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+import Sidebar from './HomePage'; // Sidebar is defined in HomePage.jsx, I will refactor Sidebar to separate file later if needed
+import DeviceDetailsMain from './DeviceDetailsMain';
+
+const DevicedetailsPage = () => {
+  return (
+    <div className="flex">
+      <Sidebar />
+      <DeviceDetailsMain />
+    </div>
+  );
+};
+
+export default DevicedetailsPage;
+
+────── END CONTENT ───────
+
+│   📄 DeviceStatusPage.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+import Sidebar from './Sidebar';
+import DeviceStatus from './DeviceStatus';
+
+const DeviceStatusPage = () => {
+  return (
+    <div className="flex">
+      <Sidebar />
+      <DeviceStatus />
+    </div>
+  );
+};
+
+export default DeviceStatusPage;
+
+────── END CONTENT ───────
+
+│   📄 DeviceStatus.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+
+const statuses = [
+  { id: 1, name: 'AC', status: 'On', mode: 'Eco' },
+  { id: 2, name: 'TV', status: 'Off', mode: 'Normal' },
+  { id: 3, name: 'Lights', status: 'On', mode: 'Eco' },
+  { id: 4, name: 'Fridge', status: 'On', mode: 'Normal' },
+];
+
+const DeviceStatus = () => {
+  return (
+    <section className="bg-white rounded-lg p-6 shadow-md max-w-4xl mx-auto mt-10">
+      <h2 className="text-xl font-semibold mb-4 text-gray-800">Device Status</h2>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-center text-gray-700">
+        {statuses.map(({ id, name, status, mode }) => (
+          <div key={id} className="p-4 border rounded-lg">
+            <p className="font-semibold text-lg">{name}</p>
+            <p>{status}</p>
+            <p>{mode}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default DeviceStatus;
+
+────── END CONTENT ───────
+
+│   📄 DeviceDetailsPage.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+import Sidebar from './Sidebar';
+import DeviceDetailsMain from './DeviceDetailsMain';
+
+const DeviceDetailsPage = () => {
+  return (
+    <div className="flex">
+      <Sidebar />
+      <DeviceDetailsMain />
+    </div>
+  );
+};
+
+export default DeviceDetailsPage;
+
+────── END CONTENT ───────
+
+│   📄 DeviceDetailsMain.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+
+const DeviceDetailsMain = () => {
+  return (
+    <main className="flex-1 p-8 bg-white min-h-screen max-w-5xl mx-auto">
+      <section className="mb-8">
+        <h1 className="text-2xl font-semibold mb-4 text-gray-900">Device Settings</h1>
+        <div className="bg-purple-100 rounded-lg p-6 flex items-center space-x-6">
+          <img src="/public/external/variant102929-txw.svg" alt="Device Icon" className="w-10 h-10" />
+          <div>
+            <h2 className="text-xl font-semibold">TV</h2>
+            <p className="text-gray-600">Bedroom</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-xl font-semibold mb-4 text-gray-900">Power Control</h2>
+        <div className="flex space-x-4">
+          <button className="px-6 py-3 bg-purple-600 text-white rounded-md font-semibold hover:bg-purple-700 transition">
+            Turn On
+          </button>
+          <button className="px-6 py-3 bg-purple-300 text-purple-900 rounded-md font-semibold hover:bg-purple-400 transition">
+            Energy Mode
+          </button>
+        </div>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-xl font-semibold mb-4 text-gray-900">Usage Stats</h2>
+        <div className="bg-gray-100 rounded-lg p-6">
+          {/* Placeholder for usage stats chart */}
+          <p className="text-gray-500 text-center">Usage stats chart goes here</p>
+        </div>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-semibold mb-4 text-gray-900">Device Options</h2>
+        <div className="flex justify-between items-center">
+          <div className="flex items-center space-x-4">
+            <div className="bg-purple-100 rounded-lg p-4 flex items-center space-x-2">
+              <span className="font-semibold">On/Off Timer</span>
+              <span className="text-gray-600">Set schedule</span>
+            </div>
+            <button className="bg-purple-600 text-white px-4 py-2 rounded-md font-semibold hover:bg-purple-700 transition">
+              Set Timer
+            </button>
+          </div>
+          <div className="flex items-center space-x-4">
+            <div className="bg-purple-100 rounded-lg p-4 flex items-center space-x-2">
+              <span className="font-semibold">Priority Level</span>
+              <span className="text-gray-600">Normal</span>
+            </div>
+            <button className="bg-purple-600 text-white px-4 py-2 rounded-md font-semibold hover:bg-purple-700 transition">
+              Select
+            </button>
+          </div>
+          <div className="flex items-center space-x-4">
+            <div className="bg-purple-100 rounded-lg p-4 flex items-center space-x-2">
+              <span className="font-semibold">Energy Budget</span>
+              <span className="text-gray-600">60% set</span>
+            </div>
+            <button className="bg-purple-600 text-white px-4 py-2 rounded-md font-semibold hover:bg-purple-700 transition">
+              Adjust
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+};
+
+export default DeviceDetailsMain;
+
+────── END CONTENT ───────
+
+│   📄 ConnectedDevicesPage.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+import Sidebar from './Sidebar';
+import ConnectedDevices from './ConnectedDevices';
+
+const ConnectedDevicesPage = () => {
+  return (
+    <div className="flex">
+      <Sidebar />
+      <ConnectedDevices />
+    </div>
+  );
+};
+
+export default ConnectedDevicesPage;
+
+────── END CONTENT ───────
+
+│   📄 ConnectedDevices.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+
+const devices = [
+  { id: 1, name: 'AC', location: 'Living Room', status: 'On', energy: true, icon: '/public/external/variant92866-nj9q.svg' },
+  { id: 2, name: 'TV', location: 'Bedroom', status: 'Off', energy: true, icon: '/public/external/variant102868-nqls.svg' },
+  { id: 3, name: 'Lights', location: 'Kitchen', status: 'On', energy: true, icon: '/public/external/variant112870-w76j.svg' },
+  { id: 4, name: 'Fridge', location: 'Pantry', status: 'On', energy: true, icon: '/public/external/variant122872-ync9.svg' },
+];
+
+const ConnectedDevices = () => {
+  return (
+    <section className="bg-white rounded-lg p-6 shadow-md max-w-4xl mx-auto">
+      <h2 className="text-xl font-semibold mb-6 text-gray-800">Connected Devices</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {devices.map((device) => (
+          <div key={device.id} className="flex items-center space-x-4 p-4 border rounded-lg shadow-sm hover:shadow-md transition-shadow">
+            <img src={device.icon} alt={`${device.name} icon`} className="w-10 h-10" />
+            <div>
+              <h3 className="text-lg font-medium text-gray-900">{device.name}</h3>
+              <p className="text-gray-500">{device.location}</p>
+              <div className="flex space-x-2 mt-2">
+                <span className={`px-3 py-1 rounded-full text-sm font-semibold ${device.status === 'On' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
+                  {device.status}
+                </span>
+                <span className="px-3 py-1 rounded-full bg-purple-100 text-purple-800 text-sm font-semibold">Energy</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default ConnectedDevices;
+
+────── END CONTENT ───────
+
+│   📄 App.jsx
+
+────── FILE CONTENT ──────
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import DevicesPage from './DevicesPage';
+import EnergyPage from './EnergyPage';
+import ConnectedDevicesPage from './ConnectedDevicesPage';
+import DeviceDetailsPage from './DeviceDetailsPage';
+import PowerUsagePage from './PowerUsagePage';
+import DeviceStatusPage from './DeviceStatusPage';
+import QuickControlPage from './QuickControlPage';
+
+const App = () => {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Navigate to="/devices" replace />} />
+        <Route path="/devices" element={<DevicesPage />} />
+        <Route path="/energy" element={<EnergyPage />} />
+        <Route path="/connected-devices" element={<ConnectedDevicesPage />} />
+        <Route path="/device-details" element={<DeviceDetailsPage />} />
+        <Route path="/power-usage" element={<PowerUsagePage />} />
+        <Route path="/device-status" element={<DeviceStatusPage />} />
+        <Route path="/quick-control" element={<QuickControlPage />} />
+      </Routes>
+    </Router>
+  );
+};
+
+export default App;
+
+────── END CONTENT ───────
+
