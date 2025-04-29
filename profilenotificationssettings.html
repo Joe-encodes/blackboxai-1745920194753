@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="english"
+  ><head
+    ><title>exported project</title
+    ><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./profilenotificationssettings.css" rel="stylesheet" /><div
+        class="profilenotificationssettings-container"
+        ><div class="profilenotificationssettings-profilenotificationssettings"
+          ><div class="profilenotificationssettings-auto-layout-horizontal10"
+            ><div class="profilenotificationssettings-auto-layout-vertical10"
+              ><div
+                class="profilenotificationssettings-auto-layout-horizontal11"
+                ><img
+                  src="public/external/rectangle2101-y54r-200h.png"
+                  alt="Rectangle2101"
+                  class="profilenotificationssettings-rectangle1" /><div
+                  class="profilenotificationssettings-auto-layout-vertical11"
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal12"
+                    ><img
+                      src="public/external/variant22101-46e9.svg"
+                      alt="variant22101"
+                      class="profilenotificationssettings-variant2" /></div></div></div
+              ><div class="profilenotificationssettings-auto-layout-vertical12"
+                ><div
+                  class="profilenotificationssettings-auto-layout-vertical13"
+                  ><div class="profilenotificationssettings-variant93hoverfalse"
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical14"
+                      ><img
+                        src="public/external/component1i210-qlis.svg"
+                        alt="component1I210"
+                        class="profilenotificationssettings-component11" /></div
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical15"
+                      ><span
+                        class="profilenotificationssettings-text10 app.banani.coRobotoSlabMedium"
+                        >Dashboard</span
+                      ></div
+                    ></div
+                  ><div class="profilenotificationssettings-variant94hoverfalse"
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical16"
+                      ><img
+                        src="public/external/component1i210-a46p.svg"
+                        alt="component1I210"
+                        class="profilenotificationssettings-component12" /></div
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical17"
+                      ><span
+                        class="profilenotificationssettings-text11 app.banani.coRobotoSlabMedium"
+                        >Devices</span
+                      ></div
+                    ></div
+                  ><div class="profilenotificationssettings-variant95hoverfalse"
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical18"
+                      ><img
+                        src="public/external/component1i210-mg4.svg"
+                        alt="component1I210"
+                        class="profilenotificationssettings-component13" /></div
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical19"
+                      ><span
+                        class="profilenotificationssettings-text12 app.banani.coRobotoSlabMedium"
+                        >Security</span
+                      ></div
+                    ></div
+                  ><div class="profilenotificationssettings-variant96hoverfalse"
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical20"
+                      ><img
+                        src="public/external/component1i210-9fgp.svg"
+                        alt="component1I210"
+                        class="profilenotificationssettings-component14" /></div
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical21"
+                      ><span
+                        class="profilenotificationssettings-text13 app.banani.coRobotoSlabMedium"
+                        >Energy</span
+                      ></div
+                    ></div
+                  ><div class="profilenotificationssettings-variant97hoverfalse"
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical22"
+                      ><img
+                        src="public/external/component1i210-ulxa.svg"
+                        alt="component1I210"
+                        class="profilenotificationssettings-component15" /></div
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical23"
+                      ><span
+                        class="profilenotificationssettings-text14 app.banani.coRobotoSlabMedium"
+                        >Notifications</span
+                      ></div
+                    ></div
+                  ><div class="profilenotificationssettings-variant98hoverfalse"
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical24"
+                      ><img
+                        src="public/external/component1i210-xdtq.svg"
+                        alt="component1I210"
+                        class="profilenotificationssettings-component16" /></div
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical25"
+                      ><span
+                        class="profilenotificationssettings-text15 app.banani.coRobotoSlabMedium"
+                        >Profile</span
+                      ></div
+                    ></div
+                  ></div
+                ></div
+              ><div class="profilenotificationssettings-auto-layout-vertical26"
+                ><div
+                  class="profilenotificationssettings-auto-layout-horizontal13"
+                  ><div
+                    class="profilenotificationssettings-auto-layout-vertical27"
+                    ><div
+                      class="profilenotificationssettings-frame1"
+                    ></div></div
+                  ><div
+                    class="profilenotificationssettings-frame2"
+                  ></div></div></div></div
+            ><div class="profilenotificationssettings-auto-layout-vertical28"
+              ><div class="profilenotificationssettings-auto-layout-vertical29"
+                ><div
+                  class="profilenotificationssettings-auto-layout-horizontal14"
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal15"
+                    ><div
+                      class="profilenotificationssettings-auto-layout-horizontal16"
+                      ><div
+                        class="profilenotificationssettings-auto-layout-vertical30"
+                        ><span
+                          class="profilenotificationssettings-text16 app.banani.coSemanticItem"
+                          >Profile</span
+                        ></div
+                      ><div
+                        class="profilenotificationssettings-auto-layout-vertical31"
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical32"
+                          ><img
+                            src="public/external/variant1252101-ng4l.svg"
+                            alt="variant1252101"
+                            class="profilenotificationssettings-variant125" /></div></div></div
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical33"
+                      ><div
+                        class="profilenotificationssettings-auto-layout-horizontal17"
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical34"
+                          ><span
+                            class="profilenotificationssettings-text17 app.banani.coSemanticItem"
+                            >Notifications</span
+                          ></div
+                        ></div
+                      ></div
+                    ></div
+                  ></div
+                ><div
+                  class="profilenotificationssettings-auto-layout-vertical35"
+                  ><span
+                    class="profilenotificationssettings-text18 app.banani.coRobotoSlabSemiBold2"
+                    >Notifications</span
+                  ></div
+                ><div
+                  class="profilenotificationssettings-auto-layout-vertical36"
+                  ><span
+                    class="profilenotificationssettings-text19 app.banani.coRobotoSlabMedium2"
+                    >Alert Preferences</span
+                  ></div
+                ><div
+                  class="profilenotificationssettings-auto-layout-horizontal18"
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal19"
+                    ><div
+                      class="profilenotificationssettings-auto-layout-horizontal20"
+                      ><img
+                        src="public/external/variant452101-49h.svg"
+                        alt="variant452101"
+                        class="profilenotificationssettings-variant45" /></div
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical37"
+                      ><div
+                        class="profilenotificationssettings-auto-layout-vertical38"
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical39"
+                          ><span
+                            class="profilenotificationssettings-text20 app.banani.coSemanticHeading2"
+                            >Device Alerts</span
+                          ></div
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical40"
+                          ><span
+                            class="profilenotificationssettings-text21 app.banani.coRobotoSlabRegular2"
+                            >Get notified about device status</span
+                          ></div
+                        ></div
+                      ></div
+                    ></div
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal21"
+                    ><img
+                      src="public/external/rectangle2102-dl0l-200h.png"
+                      alt="Rectangle2102"
+                      class="profilenotificationssettings-rectangle2" /></div></div
+                ><div
+                  class="profilenotificationssettings-auto-layout-horizontal22"
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal23"
+                    ><div
+                      class="profilenotificationssettings-auto-layout-horizontal24"
+                      ><img
+                        src="public/external/variant462102-ll75.svg"
+                        alt="variant462102"
+                        class="profilenotificationssettings-variant46" /></div
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical41"
+                      ><div
+                        class="profilenotificationssettings-auto-layout-vertical42"
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical43"
+                          ><span
+                            class="profilenotificationssettings-text22 app.banani.coSemanticHeading2"
+                            >Security Alerts</span
+                          ></div
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical44"
+                          ><span
+                            class="profilenotificationssettings-text23 app.banani.coRobotoSlabRegular2"
+                            >Intrusion and safety notifications</span
+                          ></div
+                        ></div
+                      ></div
+                    ></div
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal25"
+                    ><img
+                      src="public/external/rectangle2102-jm89-200h.png"
+                      alt="Rectangle2102"
+                      class="profilenotificationssettings-rectangle3" /></div></div
+                ><div
+                  class="profilenotificationssettings-auto-layout-horizontal26"
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal27"
+                    ><div
+                      class="profilenotificationssettings-auto-layout-horizontal28"
+                      ><img
+                        src="public/external/variant142102-oufc.svg"
+                        alt="variant142102"
+                        class="profilenotificationssettings-variant14" /></div
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical45"
+                      ><div
+                        class="profilenotificationssettings-auto-layout-vertical46"
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical47"
+                          ><span
+                            class="profilenotificationssettings-text24 app.banani.coSemanticHeading2"
+                            >Energy Usage</span
+                          ></div
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical48"
+                          ><span
+                            class="profilenotificationssettings-text25 app.banani.coRobotoSlabRegular2"
+                            >Receive energy consumption updates</span
+                          ></div
+                        ></div
+                      ></div
+                    ></div
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal29"
+                    ><img
+                      src="public/external/rectangle2102-30eu-200h.png"
+                      alt="Rectangle2102"
+                      class="profilenotificationssettings-rectangle4" /></div></div
+                ><div
+                  class="profilenotificationssettings-auto-layout-horizontal30"
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal31"
+                    ><div
+                      class="profilenotificationssettings-auto-layout-horizontal32"
+                      ><img
+                        src="public/external/variant472102-y98s.svg"
+                        alt="variant472102"
+                        class="profilenotificationssettings-variant47" /></div
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical49"
+                      ><div
+                        class="profilenotificationssettings-auto-layout-vertical50"
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical51"
+                          ><span
+                            class="profilenotificationssettings-text26 app.banani.coSemanticHeading2"
+                            >App Updates</span
+                          ></div
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical52"
+                          ><span
+                            class="profilenotificationssettings-text27 app.banani.coRobotoSlabRegular2"
+                            >Product news and feature releases</span
+                          ></div
+                        ></div
+                      ></div
+                    ></div
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal33"
+                    ><img
+                      src="public/external/rectangle2102-h4hdc-200h.png"
+                      alt="Rectangle2102"
+                      class="profilenotificationssettings-rectangle5" /></div></div
+                ><div
+                  class="profilenotificationssettings-auto-layout-vertical53"
+                  ><span
+                    class="profilenotificationssettings-text28 app.banani.coRobotoSlabMedium2"
+                    >Delivery Method</span
+                  ></div
+                ><div
+                  class="profilenotificationssettings-auto-layout-horizontal34"
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal35"
+                    ><div
+                      class="profilenotificationssettings-auto-layout-horizontal36"
+                      ><img
+                        src="public/external/variant402102-et9m.svg"
+                        alt="variant402102"
+                        class="profilenotificationssettings-variant40" /></div
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical54"
+                      ><div
+                        class="profilenotificationssettings-auto-layout-vertical55"
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical56"
+                          ><span
+                            class="profilenotificationssettings-text29 app.banani.coSemanticHeading2"
+                            >Push Notifications</span
+                          ></div
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical57"
+                          ><span
+                            class="profilenotificationssettings-text30 app.banani.coRobotoSlabRegular2"
+                            >Receive alerts on your device</span
+                          ></div
+                        ></div
+                      ></div
+                    ></div
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal37"
+                    ><img
+                      src="public/external/rectangle2102-g2mx-200h.png"
+                      alt="Rectangle2102"
+                      class="profilenotificationssettings-rectangle6" /></div></div
+                ><div
+                  class="profilenotificationssettings-auto-layout-horizontal38"
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal39"
+                    ><div
+                      class="profilenotificationssettings-auto-layout-horizontal40"
+                      ><img
+                        src="public/external/variant482102-epwa.svg"
+                        alt="variant482102"
+                        class="profilenotificationssettings-variant48" /></div
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical58"
+                      ><div
+                        class="profilenotificationssettings-auto-layout-vertical59"
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical60"
+                          ><span
+                            class="profilenotificationssettings-text31 app.banani.coSemanticHeading2"
+                            >Email Alerts</span
+                          ></div
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical61"
+                          ><span
+                            class="profilenotificationssettings-text32 app.banani.coRobotoSlabRegular2"
+                            >Get alerts via email</span
+                          ></div
+                        ></div
+                      ></div
+                    ></div
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal41"
+                    ><img
+                      src="public/external/rectangle2102-9zj-200h.png"
+                      alt="Rectangle2102"
+                      class="profilenotificationssettings-rectangle7" /></div></div
+                ><div
+                  class="profilenotificationssettings-auto-layout-horizontal42"
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal43"
+                    ><div
+                      class="profilenotificationssettings-auto-layout-horizontal44"
+                      ><img
+                        src="public/external/variant492102-x3uy.svg"
+                        alt="variant492102"
+                        class="profilenotificationssettings-variant49" /></div
+                    ><div
+                      class="profilenotificationssettings-auto-layout-vertical62"
+                      ><div
+                        class="profilenotificationssettings-auto-layout-vertical63"
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical64"
+                          ><span
+                            class="profilenotificationssettings-text33 app.banani.coSemanticHeading2"
+                            >SMS Alerts</span
+                          ></div
+                        ><div
+                          class="profilenotificationssettings-auto-layout-vertical65"
+                          ><span
+                            class="profilenotificationssettings-text34 app.banani.coRobotoSlabRegular2"
+                            >Receive alerts by SMS</span
+                          ></div
+                        ></div
+                      ></div
+                    ></div
+                  ><div
+                    class="profilenotificationssettings-auto-layout-horizontal45"
+                    ><img
+                      src="public/external/rectangle2102-21d-200h.png"
+                      alt="Rectangle2102"
+                      class="profilenotificationssettings-rectangle8" /></div></div></div></div></div></div></div
+    ></div> </body
+></html>
